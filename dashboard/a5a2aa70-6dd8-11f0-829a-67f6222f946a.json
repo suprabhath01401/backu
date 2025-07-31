@@ -938,6 +938,77 @@
           "row" : 0,
           "col" : 0,
           "id" : "b40a8705-7cf6-4200-e0b3-0ec61a394c39"
+        },
+        "1661b23e-8254-49c5-9d51-a6640c2771c8" : {
+          "typeFullFqn" : "system.label_card",
+          "type" : "static",
+          "sizeX" : 4.5,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgba(0, 0, 0, 0)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "autoScale" : true,
+              "label" : "Totalizer",
+              "labelFont" : {
+                "size" : 15,
+                "sizeUnit" : "px",
+                "family" : "Roboto",
+                "weight" : "400",
+                "style" : "normal",
+                "lineHeight" : "24px"
+              },
+              "labelColor" : "rgba(0, 0, 0, 0.87)",
+              "showIcon" : true,
+              "iconSize" : 24,
+              "iconSizeUnit" : "px",
+              "icon" : null,
+              "iconColor" : "var(--tb-primary-500)",
+              "background" : {
+                "type" : "color",
+                "color" : "#fff",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                }
+              },
+              "padding" : "12px"
+            },
+            "title" : "Label card",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "widgetStyle" : { },
+            "actions" : { },
+            "configMode" : "basic",
+            "margin" : "0px",
+            "borderRadius" : "0px",
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleFont" : {
+              "size" : 12,
+              "sizeUnit" : "px",
+              "family" : null,
+              "weight" : null,
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "titleIcon" : "",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "14px",
+            "datasources" : [ ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "1661b23e-8254-49c5-9d51-a6640c2771c8"
         }
       },
       "states" : {
@@ -955,17 +1026,23 @@
                   "col" : 0
                 },
                 "2a263c69-3762-4a36-ba4f-9bb42352cef9" : {
-                  "sizeX" : 33,
+                  "sizeX" : 34,
                   "sizeY" : 20,
                   "mobileHeight" : null,
-                  "row" : 2,
-                  "col" : 37
+                  "row" : 4,
+                  "col" : 35
                 },
                 "b40a8705-7cf6-4200-e0b3-0ec61a394c39" : {
                   "sizeX" : 34,
                   "sizeY" : 3,
                   "row" : 1,
                   "col" : 0
+                },
+                "1661b23e-8254-49c5-9d51-a6640c2771c8" : {
+                  "sizeX" : 34,
+                  "sizeY" : 3,
+                  "row" : 1,
+                  "col" : 35
                 }
               },
               "gridSettings" : {
