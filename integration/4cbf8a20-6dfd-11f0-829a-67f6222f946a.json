@@ -20,7 +20,7 @@
         }
       },
       "topicFilters" : [ {
-        "filter" : "#",
+        "filter" : "Test10",
         "qos" : 0
       } ],
       "downlinkTopicPattern" : "${topic}",
