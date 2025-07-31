@@ -19,7 +19,7 @@
               "name" : "",
               "deviceId" : "bb27e9f0-6b7b-11f0-829a-67f6222f946a",
               "dataKeys" : [ {
-                "name" : "temperature",
+                "name" : "Frequency",
                 "type" : "timeseries",
                 "label" : "Temperature",
                 "color" : "#2196f3",
@@ -92,7 +92,7 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.2968975987254585,
+                "_hash" : 0.4643181942263557,
                 "units" : "°C",
                 "decimals" : 0
               } ],
@@ -108,12 +108,29 @@
               "selectedTab" : 0,
               "realtime" : {
                 "realtimeType" : 0,
-                "timewindowMs" : 60000,
+                "interval" : 1000,
+                "timewindowMs" : 300000,
                 "quickInterval" : "CURRENT_DAY",
-                "interval" : 1000
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1753864556731,
+                  "endTimeMs" : 1753950956731
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
               },
               "aggregation" : {
-                "type" : "AVG",
+                "type" : "SUM",
                 "limit" : 25000
               },
               "timezone" : null
@@ -240,12 +257,13 @@
               "tooltipBackgroundBlur" : 4,
               "background" : {
                 "type" : "color",
-                "color" : "#fff",
+                "color" : "#FDF7EE",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(255,255,255,0.72)",
                   "blur" : 3
-                }
+                },
+                "imageUrl" : null
               },
               "yAxes" : {
                 "default" : {
