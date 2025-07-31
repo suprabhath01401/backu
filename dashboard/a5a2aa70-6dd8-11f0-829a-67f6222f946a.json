@@ -897,7 +897,8 @@
               "iconColor" : "var(--tb-primary-500)",
               "background" : {
                 "type" : "color",
-                "color" : "#fff",
+                "imageUrl" : null,
+                "color" : "#80CBC3",
                 "overlay" : {
                   "enabled" : false,
                   "color" : "rgba(255,255,255,0.72)",
