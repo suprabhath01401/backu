@@ -21,7 +21,7 @@
               "dataKeys" : [ {
                 "name" : "Frequency",
                 "type" : "timeseries",
-                "label" : "Temperature",
+                "label" : "Instant Flow",
                 "color" : "#2196f3",
                 "settings" : {
                   "yAxisId" : "default",
@@ -93,8 +93,8 @@
                   }
                 },
                 "_hash" : 0.4643181942263557,
-                "units" : "°C",
-                "decimals" : 0
+                "units" : "m³/Hr",
+                "decimals" : 4
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
