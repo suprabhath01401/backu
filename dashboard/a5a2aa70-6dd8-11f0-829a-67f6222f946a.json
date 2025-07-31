@@ -456,8 +456,8 @@
             "main" : {
               "widgets" : {
                 "d067e982-bdcd-4a12-dd68-31af5a2be346" : {
-                  "sizeX" : 33,
-                  "sizeY" : 15,
+                  "sizeX" : 34,
+                  "sizeY" : 20,
                   "mobileHeight" : null,
                   "row" : 2,
                   "col" : 0
