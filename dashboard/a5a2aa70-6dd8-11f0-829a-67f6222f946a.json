@@ -438,20 +438,27 @@
             "main" : {
               "widgets" : {
                 "d067e982-bdcd-4a12-dd68-31af5a2be346" : {
-                  "sizeX" : 11,
-                  "sizeY" : 5,
+                  "sizeX" : 33,
+                  "sizeY" : 15,
                   "mobileHeight" : null,
-                  "row" : 1,
+                  "row" : 3,
                   "col" : 0
                 }
               },
               "gridSettings" : {
                 "layoutType" : "default",
                 "backgroundColor" : "#eeeeee",
-                "columns" : 24,
+                "columns" : 72,
                 "margin" : 10,
                 "outerMargin" : true,
-                "backgroundSizeMode" : "100%"
+                "backgroundSizeMode" : "100%",
+                "minColumns" : 72,
+                "viewFormat" : "grid",
+                "autoFillHeight" : false,
+                "rowHeight" : 70,
+                "backgroundImageUrl" : null,
+                "mobileAutoFillHeight" : false,
+                "mobileRowHeight" : 70
               }
             }
           }
