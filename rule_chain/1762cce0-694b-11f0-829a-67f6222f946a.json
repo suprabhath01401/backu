@@ -39,10 +39,6 @@
       "toIndex" : 9,
       "type" : "Generate Report"
     }, {
-      "fromIndex" : 1,
-      "toIndex" : 10,
-      "type" : "Post telemetry"
-    }, {
       "fromIndex" : 5,
       "toIndex" : 1,
       "type" : "False"
