@@ -532,8 +532,8 @@
                   }
                 },
                 "_hash" : 0.8312942566860824,
-                "units" : "°C",
-                "decimals" : 0
+                "units" : "m³",
+                "decimals" : 4
               } ],
               "alarmFilterConfig" : {
                 "statusList" : [ "ACTIVE" ]
