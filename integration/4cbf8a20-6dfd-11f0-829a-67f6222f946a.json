@@ -20,7 +20,7 @@
         }
       },
       "topicFilters" : [ {
-        "filter" : "Test10",
+        "filter" : "#",
         "qos" : 0
       } ],
       "downlinkTopicPattern" : "${topic}",
@@ -57,7 +57,7 @@
       "doubleValue" : null,
       "jsonValue" : "{\"success\":true}",
       "key" : "integration_status_tb-pe-node",
-      "lastUpdateTs" : 1753960552809,
+      "lastUpdateTs" : 1753960833917,
       "longValue" : null,
       "strValue" : null
     } ]
