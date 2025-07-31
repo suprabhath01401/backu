@@ -1,0 +1,104 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "clientConfiguration" : {
+        "host" : "164.52.192.233",
+        "port" : 1883,
+        "cleanSession" : true,
+        "retainedMessage" : false,
+        "ssl" : false,
+        "connectTimeoutSec" : 10,
+        "clientId" : "",
+        "maxBytesInMessage" : 32368,
+        "credentials" : {
+          "type" : "anonymous"
+        }
+      },
+      "topicFilters" : [ {
+        "filter" : "Test26P",
+        "qos" : 0
+      }, {
+        "filter" : "Test26S",
+        "qos" : 0
+      }, {
+        "filter" : "Test27P",
+        "qos" : 0
+      }, {
+        "filter" : "Test10",
+        "qos" : 0
+      } ],
+      "downlinkTopicPattern" : "${topic}",
+      "metadata" : { }
+    },
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1753446421664,
+      "failuresEnabled" : true
+    },
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "91f8fec0-6950-11f0-829a-67f6222f946a"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "f5a55a40-6950-11f0-829a-67f6222f946a"
+    },
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "9205d000-6950-11f0-829a-67f6222f946a"
+    },
+    "name" : "MQTT integration",
+    "remote" : false,
+    "routingKey" : "968fcc88-f5fc-1a84-0b04-7e897e76e979",
+    "secret" : "jz9tefljpui4maj6p3ai",
+    "type" : "MQTT"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "9205d000-6950-11f0-829a-67f6222f946a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "bb27e9f0-6b7b-11f0-829a-67f6222f946a"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 2323
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "9205d000-6950-11f0-829a-67f6222f946a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d20b6e30-6950-11f0-829a-67f6222f946a"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 2261
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-pe-node",
+      "lastUpdateTs" : 1753683961233,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  },
+  "calculatedFields" : [ ]
+}
