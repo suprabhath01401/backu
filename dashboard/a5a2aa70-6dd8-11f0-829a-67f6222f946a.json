@@ -456,11 +456,11 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "d20b6e30-6950-11f0-829a-67f6222f946a",
+              "deviceId" : "bb27e9f0-6b7b-11f0-829a-67f6222f946a",
               "dataKeys" : [ {
                 "name" : "temperature",
                 "type" : "timeseries",
-                "label" : "Temperature",
+                "label" : "Totalizer",
                 "color" : "#2196f3",
                 "settings" : {
                   "yAxisId" : "default",
