@@ -1,0 +1,56 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : null,
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "metadata" : { },
+      "clientConfiguration" : {
+        "host" : "164.52.192.233",
+        "port" : 1883,
+        "cleanSession" : true,
+        "retainedMessage" : false,
+        "ssl" : false,
+        "connectTimeoutSec" : 10,
+        "clientId" : "",
+        "maxBytesInMessage" : 32368,
+        "credentials" : {
+          "type" : "anonymous"
+        }
+      },
+      "topicFilters" : [ {
+        "filter" : "Test10",
+        "qos" : 0
+      } ],
+      "downlinkTopicPattern" : "${topic}"
+    },
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1753960413026,
+      "failuresEnabled" : true
+    },
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "4cb32e10-6dfd-11f0-829a-67f6222f946a"
+    },
+    "downlinkConverterId" : null,
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "4cbf8a20-6dfd-11f0-829a-67f6222f946a"
+    },
+    "name" : "MQTT_Teltonika",
+    "remote" : false,
+    "routingKey" : "02b2f7df-876e-c72d-d08f-f464fe09f38c",
+    "secret" : "n7dyfw9hmldhd9omzyoa",
+    "type" : "MQTT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
