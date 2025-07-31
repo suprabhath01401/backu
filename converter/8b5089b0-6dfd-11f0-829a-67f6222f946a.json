@@ -1,0 +1,37 @@
+{
+  "entityType" : "CONVERTER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : {
+      "scriptLang" : "TBEL",
+      "decoder" : null,
+      "tbelDecoder" : "var ascii = msg.params;\r\n// If msg.params is already a string with quotes, remove them:\r\nif (typeof ascii === 'string' && ascii.startsWith('\"') && ascii.endsWith('\"')) {\r\n    ascii = ascii.substring(1, ascii.length - 1);\r\n}\r\nvar result = {\r\n  contentType: \"TEXT\",   // Very important: ensures it's sent as raw text, not JSON\r\n  data: ascii,           // Just the plain string\r\n  metadata: {\r\n    topic: \"write\"       // MQTT topic to publish to\r\n  }\r\n};\r\n\r\nreturn result;",
+      "encoder" : null,
+      "tbelEncoder" : null,
+      "updateOnlyKeys" : [ "manufacturer" ]
+    },
+    "converterVersion" : 1,
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 0,
+      "failuresEnabled" : true
+    },
+    "edgeTemplate" : false,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CONVERTER",
+      "id" : "8b5089b0-6dfd-11f0-829a-67f6222f946a"
+    },
+    "integrationType" : "MQTT",
+    "name" : "Downlink_Teltonika",
+    "type" : "UPLINK"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
