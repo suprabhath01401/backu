@@ -20,6 +20,10 @@
   "metaData" : {
     "connections" : [ {
       "fromIndex" : 1,
+      "toIndex" : 0,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 1,
       "toIndex" : 2,
       "type" : "RPC Request from Device"
     }, {
@@ -34,10 +38,6 @@
       "fromIndex" : 1,
       "toIndex" : 9,
       "type" : "Generate Report"
-    }, {
-      "fromIndex" : 1,
-      "toIndex" : 10,
-      "type" : "Post telemetry"
     }, {
       "fromIndex" : 5,
       "toIndex" : 1,
