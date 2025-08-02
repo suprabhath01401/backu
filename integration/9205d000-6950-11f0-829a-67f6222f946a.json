@@ -28,6 +28,9 @@
       }, {
         "filter" : "Test27P",
         "qos" : 0
+      }, {
+        "filter" : "Test30P",
+        "qos" : 0
       } ],
       "downlinkTopicPattern" : "${topic}",
       "metadata" : { }
@@ -92,7 +95,7 @@
       "doubleValue" : null,
       "jsonValue" : "{\"success\":true}",
       "key" : "integration_status_tb-pe-node",
-      "lastUpdateTs" : 1753959364092,
+      "lastUpdateTs" : 1753959706457,
       "longValue" : null,
       "strValue" : null
     } ]
