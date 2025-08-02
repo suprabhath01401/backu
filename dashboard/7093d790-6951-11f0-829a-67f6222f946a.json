@@ -2809,6 +2809,80 @@
           "row" : 0,
           "col" : 0,
           "id" : "760d535a-b93c-20ec-b9af-6a568be420ac"
+        },
+        "60e5d5f9-408a-ee8e-41bb-efdf2145f290" : {
+          "typeFullFqn" : "system.label_card",
+          "type" : "static",
+          "sizeX" : 4.5,
+          "sizeY" : 1,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "rgb(161, 173, 177)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "autoScale" : false,
+              "label" : "Totalizer - Value & Trend",
+              "labelFont" : {
+                "family" : "sans-serif",
+                "size" : 20,
+                "sizeUnit" : "px",
+                "style" : "normal",
+                "weight" : "bolder",
+                "lineHeight" : "24px"
+              },
+              "labelColor" : "rgb(245, 221, 0)",
+              "showIcon" : true,
+              "iconSize" : 10,
+              "iconSizeUnit" : "px",
+              "icon" : null,
+              "iconColor" : "var(--tb-primary-500)",
+              "background" : {
+                "type" : "color",
+                "color" : "#435B63",
+                "overlay" : {
+                  "enabled" : false,
+                  "color" : "rgba(255,255,255,0.72)",
+                  "blur" : 3
+                },
+                "imageUrl" : null
+              },
+              "padding" : "12px"
+            },
+            "title" : "Label card",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "widgetStyle" : { },
+            "actions" : { },
+            "configMode" : "advanced",
+            "margin" : "0px",
+            "borderRadius" : "0px",
+            "widgetCss" : "",
+            "noDataDisplayMessage" : "",
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "titleFont" : {
+              "size" : 12,
+              "sizeUnit" : "px",
+              "family" : null,
+              "weight" : null,
+              "style" : null,
+              "lineHeight" : "1.6"
+            },
+            "titleIcon" : "",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "14px",
+            "datasources" : [ ],
+            "enableDataExport" : true,
+            "pageSize" : 1024
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "60e5d5f9-408a-ee8e-41bb-efdf2145f290"
         }
       },
       "states" : {
@@ -2908,6 +2982,12 @@
                   "preserveAspectRatio" : false,
                   "resizable" : true,
                   "row" : 36,
+                  "col" : 38
+                },
+                "60e5d5f9-408a-ee8e-41bb-efdf2145f290" : {
+                  "sizeX" : 33,
+                  "sizeY" : 2,
+                  "row" : 34,
                   "col" : 38
                 }
               },
