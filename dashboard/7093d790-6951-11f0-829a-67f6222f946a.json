@@ -2193,7 +2193,7 @@
               "name" : "",
               "deviceId" : "d20b6e30-6950-11f0-829a-67f6222f946a",
               "dataKeys" : [ {
-                "name" : "DeltaTotaliser",
+                "name" : "Totaliser",
                 "type" : "timeseries",
                 "label" : "Totaliser",
                 "color" : "#F44336",
@@ -2266,7 +2266,7 @@
                     "color" : ""
                   }
                 },
-                "_hash" : 0.4091328342955495,
+                "_hash" : 0.8514850956889177,
                 "units" : "m³",
                 "decimals" : 4
               } ],
@@ -2281,9 +2281,9 @@
               "hideTimezone" : false,
               "selectedTab" : 0,
               "realtime" : {
-                "realtimeType" : 1,
-                "interval" : 86400000,
-                "timewindowMs" : 345600000,
+                "realtimeType" : 0,
+                "interval" : 600000,
+                "timewindowMs" : 7200000,
                 "quickInterval" : "CURRENT_WEEK",
                 "hideInterval" : false,
                 "hideLastInterval" : false,
@@ -2304,7 +2304,7 @@
                 "hideQuickInterval" : false
               },
               "aggregation" : {
-                "type" : "SUM",
+                "type" : "NONE",
                 "limit" : 50000
               },
               "timezone" : null
@@ -2319,11 +2319,11 @@
                 "direction" : "column",
                 "position" : "top",
                 "sortDataKeys" : false,
-                "showMin" : true,
-                "showMax" : true,
+                "showMin" : false,
+                "showMax" : false,
                 "showAvg" : false,
                 "showTotal" : false,
-                "showLatest" : false
+                "showLatest" : true
               },
               "thresholds" : [ ],
               "dataZoom" : true,
