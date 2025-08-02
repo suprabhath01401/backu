@@ -1984,7 +1984,7 @@
             "settings" : {
               "autoScale" : false,
               "showLabel" : true,
-              "label" : "Totalizer",
+              "label" : "Delta Totalizer",
               "labelFont" : {
                 "size" : 17,
                 "sizeUnit" : "px",
@@ -2120,7 +2120,7 @@
             "padding" : "0px",
             "settings" : {
               "autoScale" : false,
-              "label" : "Totalizer - Value & Trend",
+              "label" : "Delta Totalizer - Value & Trend",
               "labelFont" : {
                 "family" : "sans-serif",
                 "size" : 20,
@@ -2234,7 +2234,7 @@
                   "col" : 1
                 },
                 "d3a3d0c8-c3a7-7041-6665-200aa1110df7" : {
-                  "sizeX" : 70,
+                  "sizeX" : 37,
                   "sizeY" : 22,
                   "mobileHeight" : null,
                   "preserveAspectRatio" : false,
@@ -2252,7 +2252,7 @@
                   "col" : 38
                 },
                 "20666f9c-d354-c475-78f6-df6288359e9a" : {
-                  "sizeX" : 70,
+                  "sizeX" : 37,
                   "sizeY" : 2,
                   "preserveAspectRatio" : false,
                   "resizable" : true,
@@ -2260,7 +2260,7 @@
                   "col" : 1
                 },
                 "b3a10ac1-c4aa-4c4f-9c12-cd59613c2f17" : {
-                  "sizeX" : 70,
+                  "sizeX" : 37,
                   "sizeY" : 2,
                   "row" : 34,
                   "col" : 1
