@@ -762,7 +762,7 @@
                 "showMax" : true,
                 "showAvg" : false,
                 "showTotal" : false,
-                "showLatest" : true
+                "showLatest" : false
               },
               "thresholds" : [ ],
               "dataZoom" : true,
