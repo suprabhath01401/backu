@@ -756,6 +756,7 @@
             "settings" : {
               "showLegend" : true,
               "legendConfig" : {
+                "direction" : "column",
                 "position" : "top",
                 "sortDataKeys" : false,
                 "showMin" : true,
@@ -1016,7 +1017,7 @@
             "showTitleIcon" : false,
             "titleIcon" : "thermostat",
             "iconColor" : "#1F6BDD",
-            "useDashboardTimewindow" : false,
+            "useDashboardTimewindow" : true,
             "displayTimewindow" : true,
             "titleFont" : {
               "size" : 16,
